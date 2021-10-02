@@ -1,0 +1,384 @@
+[ {
+  "!day" : 1.62899176029373E9,
+  "coins" : 375,
+  "id" : 266207977487335425,
+  "invites id" : [ 220594703429664768 ],
+  "lol" : {
+    "player_data" : {
+      "accountId" : "3mrALywpbwr11_t31W3FFJZ1ufLAAf8N5ot0b3n9rCB-TFSV6I04DSyf",
+      "id" : "Hd4OI8S3tBpiYCuaYAcuU_GzmAhKYJBWBbaogz6Qs8G3lfU-",
+      "last_timestamp" : 1629059547,
+      "name" : "IronFlex420",
+      "need_verif" : false,
+      "profileIconId" : 4655,
+      "puuid" : "I19OMRnFezR8nKb-hdwvax-WwK-maa6A_meKrwF4tIIR7GUentM3tUnCv9k6UvoL6c9JUmi0ESrqkg",
+      "revisionDate" : 1628801737000,
+      "summonerLevel" : 83,
+      "verif_id" : 0
+    },
+    "éternels" : [ {
+      "count" : 616,
+      "description" : "Cet éternel compte tes morts, tous modes de jeu confondus ! Va donc rundown en flex !",
+      "level" : 2,
+      "nom" : "Nombre de morts",
+      "paliers" : [ 10, 100, 1000, 25000, 10000 ],
+      "prix" : 1000,
+      "rewards" : [ 30, 70, 150, 300, 800 ]
+    }, {
+      "count" : 16.6,
+      "description" : "Cet éternel compte ton temps de jeu dans ce magnifique jeu vidéo qu'est League of Legends !",
+      "level" : 1,
+      "nom" : "Temps de jeu",
+      "paliers" : [ 1, 10, 100, 250, 1000 ],
+      "prix" : 500,
+      "rewards" : [ 20, 50, 100, 200, 500 ]
+    }, {
+      "count" : 473,
+      "description" : "Cet éternel compte tes kills, tous modes de jeu confondus ! Va donc casser du bronze !",
+      "level" : 1,
+      "nom" : "Nombre de kills",
+      "paliers" : [ 10, 100, 750, 2500, 10000 ],
+      "prix" : 500,
+      "rewards" : [ 20, 50, 100, 200, 500 ]
+    }, {
+      "count" : 148,
+      "description" : "Cet éternel compte ton score de vision ! Plus de vision pour plus de bagarre !",
+      "level" : 1,
+      "nom" : "Score de vision",
+      "paliers" : [ 30, 300, 3000, 6000, 25000 ],
+      "prix" : 500,
+      "rewards" : [ 20, 50, 100, 200, 500 ]
+    } ]
+  },
+  "multiplier" : 1,
+  "name" : "Romain",
+  "nb invites" : 3,
+  "puissance_4" : {
+    "gain total" : -15,
+    "looses" : 1,
+    "wins" : 3
+  },
+  "slot_machine" : {
+    "gain_total" : -140,
+    "nb_tirages" : 374
+  }
+}, {
+  "!day" : 1.629044823902092E9,
+  "coins" : 49,
+  "id" : 366579740976480257,
+  "invites id" : [ 667836446010376200 ],
+  "lol" : {
+    "player_data" : {
+      "accountId" : "aak9sGkmCqgOULA59LVL0Q71bzdcflTE30qrVnApuh6k9HQ",
+      "id" : "zdVWF5dev-Ll-8iNL-QMABhFa3uD4lrqCLU9valOwY5lhCoK",
+      "last_timestamp" : 1629059547,
+      "name" : "ragondindu36",
+      "need_verif" : false,
+      "profileIconId" : 4784,
+      "puuid" : "JCIdYHTejZr1eun78xxGCWFYiFhscfumFbT7ezHUbZRQg52cjRzi9-QJfheU_ezyQOJbGzQxVVYyyQ",
+      "revisionDate" : 1628862880000,
+      "summonerLevel" : 169,
+      "verif_id" : 1
+    },
+    "éternels" : [ {
+      "count" : 28.959999999999997,
+      "description" : "Cet éternel compte ton temps de jeu dans ce magnifique jeu vidéo qu'est League of Legends !",
+      "level" : 1,
+      "nom" : "Temps de jeu",
+      "paliers" : [ 1, 10, 100, 250, 1000 ],
+      "prix" : 500,
+      "rewards" : [ 20, 50, 100, 200, 500 ]
+    }, {
+      "count" : 1236,
+      "description" : "Cet éternel compte tes kills, tous modes de jeu confondus ! Va donc casser du bronze !",
+      "level" : 1,
+      "nom" : "Nombre de kills",
+      "paliers" : [ 10, 100, 750, 2500, 10000 ],
+      "prix" : 500,
+      "rewards" : [ 20, 50, 100, 200, 500 ]
+    }, {
+      "count" : 84,
+      "description" : "Cet éternel compte ton score de vision ! Plus de vision pour plus de bagarre !",
+      "level" : 1,
+      "nom" : "Score de vision",
+      "paliers" : [ 30, 300, 3000, 6000, 25000 ],
+      "prix" : 500,
+      "rewards" : [ 20, 50, 100, 200, 500 ]
+    }, {
+      "count" : 2,
+      "description" : "Cet éternel compte le nombre de pentakills que tu as faits ! Ils comptent double si tu les faits les yeux fermés !!!",
+      "level" : 3,
+      "nom" : "Nombre de pentakills",
+      "paliers" : [ 1, 3, 5, 10, 20 ],
+      "prix" : 1500,
+      "rewards" : [ 40, 100, 200, 500, 1200 ]
+    }, {
+      "count" : 0,
+      "description" : "Cet éternel compte tes assists dans LoL !",
+      "level" : 1,
+      "nom" : "Nombre d'assistances",
+      "paliers" : [ 25, 250, 2000, 7000, 25000 ],
+      "prix" : 500,
+      "rewards" : [ 20, 50, 100, 200, 500 ]
+    } ]
+  },
+  "multiplier" : 1,
+  "name" : "Léo",
+  "nb invites" : 1,
+  "slot_machine" : {
+    "gain_total" : -20,
+    "nb_tirages" : 2
+  }
+}, {
+  "!day" : 1.629055634013016E9,
+  "coins" : 73,
+  "id" : 724313553452007506,
+  "lol" : {
+    "player_data" : {
+      "accountId" : "Oh6x3bwMFtH6NkOdcM5ftutkQ1QA4H2YLx5cZ9tMfVie7MCcxGlVCO1H",
+      "id" : "noC84eeHO48hoJGAULPXNkGs_cAF61T6KTm_FZSzL7D6T1OKy9bAeNgEyw",
+      "last_timestamp" : 1629054014,
+      "name" : "THC White Widow",
+      "need_verif" : false,
+      "profileIconId" : 3542,
+      "puuid" : "f1j4cnl3v-V6qNeLxexEbqcJWkTso_fB_coivtmYdZXvP83po3yKdOFsto0YI6u8QmVwfUVTpi0-XQ",
+      "revisionDate" : 1628635593000,
+      "summonerLevel" : 29,
+      "verif_id" : 4
+    },
+    "éternels" : [ {
+      "count" : 21,
+      "description" : "Cet éternel compte tes kills, tous modes de jeu confondus ! Va donc casser du bronze !",
+      "level" : 1,
+      "nom" : "Nombre de kills",
+      "paliers" : [ 10, 100, 750, 2500, 10000 ],
+      "prix" : 500,
+      "rewards" : [ 20, 50, 100, 200, 500 ]
+    } ]
+  },
+  "multiplier" : 1,
+  "name" : "lilLombax",
+  "nb invites" : 0,
+  "puissance_4" : {
+    "gain total" : -35,
+    "looses" : 3,
+    "wins" : 0
+  },
+  "slot_machine" : {
+    "gain_total" : -235,
+    "nb_tirages" : 24
+  }
+}, {
+  "!day" : 1.628639378454671E9,
+  "coins" : 367,
+  "id" : 286203740544040961,
+  "lol" : {
+    "player_data" : {
+      "accountId" : "ZQNEX_rtjKgaTm3JMrDC8oBsGv4IPwnpvlh7DJmGCZFil7Kcsl2JvSGR",
+      "id" : "hNtjqWItybQe71PvCnZG1SJZvITbrfITPx-OLcJ040J6GeiA",
+      "last_timestamp" : 1629059547,
+      "name" : "photong8",
+      "need_verif" : false,
+      "profileIconId" : 4657,
+      "puuid" : "Po3HypYNkbEA-hJwZW0boLsHMxzu7mht_oDz5CbcDHy71PkHzPKSAqF6IvoU-wBHUQAg9d1D4zOBmw",
+      "revisionDate" : 1628700374000,
+      "summonerLevel" : 135,
+      "verif_id" : 4
+    }
+  },
+  "multiplier" : 1,
+  "name" : "Photon",
+  "nb invites" : 0,
+  "slot_machine" : {
+    "gain_total" : -300,
+    "nb_tirages" : 16
+  }
+}, {
+  "!day" : 1.628807675129225E9,
+  "coins" : 456,
+  "id" : 688791906934980818,
+  "invites id" : [ 366579740976480257 ],
+  "lol" : {
+    "player_data" : {
+      "accountId" : "cXRhkKxjYyei_GuL0lO8Wh3PHsioQbiVuGNbB4vA-3Mu53qmPhvEelgc",
+      "id" : "AK8xkVtTiOYcWfUVct8OmHk0ICtcmuFxe8HOKPQdjcXMzdixhZOLIOYwgQ",
+      "last_timestamp" : 1628802011,
+      "name" : "Rwarware",
+      "need_verif" : false,
+      "profileIconId" : 4979,
+      "puuid" : "zdJaZLX13a3cK7N03pJJNKNovJer2EpZOb2mwt4GACDnEqA9pGu994FPl51021mHxBwIVC9e-OYBYQ",
+      "revisionDate" : 1628692850000,
+      "summonerLevel" : 36,
+      "verif_id" : 2
+    },
+    "éternels" : [ {
+      "count" : 403,
+      "description" : "Cet éternel compte tes morts, tous modes de jeu confondus ! Va donc rundown en flex !",
+      "level" : 2,
+      "nom" : "Nombre de morts",
+      "paliers" : [ 10, 100, 1000, 2500, 10000 ],
+      "prix" : 1000,
+      "rewards" : [ 30, 70, 150, 300, 800 ]
+    }, {
+      "count" : 12.4,
+      "description" : "Cet éternel compte ton temps de jeu dans ce magnifique jeu vidéo qu'est League of Legends !",
+      "level" : 1,
+      "nom" : "Temps de jeu",
+      "paliers" : [ 1, 10, 100, 250, 1000 ],
+      "prix" : 500,
+      "rewards" : [ 20, 50, 100, 200, 500 ]
+    }, {
+      "count" : 0,
+      "description" : "Cet éternel compte tes assists dans LoL !",
+      "level" : 1,
+      "nom" : "Nombre d'assistances",
+      "paliers" : [ 25, 250, 2000, 7000, 25000 ],
+      "prix" : 500,
+      "rewards" : [ 20, 50, 100, 200, 500 ]
+    } ]
+  },
+  "multiplier" : 1,
+  "name" : "raphaël",
+  "nb invites" : 1,
+  "slot_machine" : {
+    "gain_total" : 740,
+    "nb_tirages" : 159
+  }
+}, {
+  "!day" : 1.62899176029373E9,
+  "coins" : 253,
+  "id" : 0,
+  "invites id" : [ 220594703429664768 ],
+  "lol" : {
+    "player_data" : {
+      "accountId" : "3mrALywpbwr11_t31W3FFJZ1ufLAAf8N5ot0b3n9rCB-TFSV6I04DSyf",
+      "id" : "Hd4OI8S3tBpiYCuaYAcuU_GzmAhKYJBWBbaogz6Qs8G3lfU-",
+      "last_timestamp" : 1628799970,
+      "name" : "IronFlex420",
+      "need_verif" : false,
+      "profileIconId" : 4655,
+      "puuid" : "I19OMRnFezR8nKb-hdwvax-WwK-maa6A_meKrwF4tIIR7GUentM3tUnCv9k6UvoL6c9JUmi0ESrqkg",
+      "revisionDate" : 1628635592952,
+      "summonerLevel" : 82,
+      "verif_id" : 0
+    },
+    "éternels" : [ {
+      "count" : 541,
+      "description" : "Cet éternel compte tes morts, tous modes de jeu confondus ! Va donc rundown en flex !",
+      "level" : 2,
+      "nom" : "Nombre de morts",
+      "paliers" : [ 10, 100, 1000, 25000, 10000 ],
+      "prix" : 1000,
+      "rewards" : [ 30, 70, 150, 300, 800 ]
+    }, {
+      "count" : 14.290000000000001,
+      "description" : "Cet éternel compte ton temps de jeu dans ce magnifique jeu vidéo qu'est League of Legends !",
+      "level" : 1,
+      "nom" : "Temps de jeu",
+      "paliers" : [ 1, 10, 100, 250, 1000 ],
+      "prix" : 500,
+      "rewards" : [ 20, 50, 100, 200, 500 ]
+    }, {
+      "count" : 411,
+      "description" : "Cet éternel compte tes kills, tous modes de jeu confondus ! Va donc casser du bronze !",
+      "level" : 1,
+      "nom" : "Nombre de kills",
+      "paliers" : [ 10, 100, 750, 2500, 10000 ],
+      "prix" : 500,
+      "rewards" : [ 20, 50, 100, 200, 500 ]
+    }, {
+      "count" : 126,
+      "description" : "Cet éternel compte ton score de vision ! Plus de vision pour plus de bagarre !",
+      "level" : 1,
+      "nom" : "Score de vision",
+      "paliers" : [ 30, 300, 3000, 6000, 25000 ],
+      "prix" : 500,
+      "rewards" : [ 20, 50, 100, 200, 500 ]
+    } ]
+  },
+  "multiplier" : 1,
+  "name" : "empty account",
+  "nb invites" : 3,
+  "puissance_4" : {
+    "gain total" : -15,
+    "looses" : 1,
+    "wins" : 3
+  },
+  "slot_machine" : {
+    "gain_total" : -140,
+    "nb_tirages" : 374
+  }
+}, {
+  "coins" : 100,
+  "id" : 360880764583280641,
+  "multiplier" : 1,
+  "name" : "Padepô",
+  "nb invites" : 0
+}, {
+  "!day" : 1.628997855030665E9,
+  "coins" : 0,
+  "id" : 175996389749161984,
+  "lol" : {
+    "player_data" : {
+      "accountId" : "aeR0myslfyGkD1P0GdMhiCCnP6DPvPqugTxdFmKVeDSqsfw",
+      "id" : "wALWcS7OhYWCEiBxTjULXu84HOGHSf5wrON5CQw6fSVFuVg",
+      "last_timestamp" : 1.627854630763352E9,
+      "name" : "40trix",
+      "need_verif" : false,
+      "profileIconId" : 1374,
+      "puuid" : "gRmTuz9ApuAGak5q0ELXW8GqWpCBAIZYKloH39FyS7M5kAv2DKvhNhYHCrHPbCPs0xi03uUxWyUUpg",
+      "revisionDate" : 1623584393000,
+      "summonerLevel" : 51,
+      "verif_id" : 0
+    }
+  },
+  "multiplier" : 1,
+  "name" : "Aotrix",
+  "nb invites" : 0,
+  "slot_machine" : {
+    "gain_total" : -420,
+    "nb_tirages" : 300
+  }
+}, {
+  "!day" : 1.629056995317318E9,
+  "coins" : 10,
+  "id" : 220594703429664768,
+  "multiplier" : 1,
+  "name" : "Estève",
+  "nb invites" : 0,
+  "slot_machine" : {
+    "gain_total" : -150,
+    "nb_tirages" : 41
+  }
+}, {
+  "!day" : 1.628201763941989E9,
+  "coins" : 0,
+  "id" : 548469462517415937,
+  "lol" : {
+    "player_data" : {
+      "accountId" : "VXq9fTupLdqomS6zLatkDJS9koyEjPODaJV64jIngVAGNA",
+      "id" : "XjlkP9mmOVQKUDsLnhNBnMFI0kX_c9XysW_SvXl9-3chc3c",
+      "last_timestamp" : 1.628198120448253E9,
+      "name" : "Juninho",
+      "need_verif" : true,
+      "profileIconId" : 4022,
+      "puuid" : "8my_fU4cPsUQpRt064lwEqTOIUhxHmKgdS_vZ6Kh1bGYxRgXdh75iVCST2-XrTbSOHwFlii9lDsGlw",
+      "revisionDate" : 1627855265272,
+      "summonerLevel" : 156,
+      "verif_id" : 3
+    }
+  },
+  "multiplier" : 1,
+  "name" : "Ending",
+  "nb invites" : 0,
+  "slot_machine" : {
+    "gain_total" : -120,
+    "nb_tirages" : 22
+  }
+}, {
+  "coins" : 100,
+  "id" : 667836446010376234,
+  "multiplier" : 1,
+  "name" : "Henintsoa",
+  "nb invites" : 0
+} ]
