@@ -11,8 +11,6 @@ from Packages.Rocket_league.RLstats420 import rl_update
 #this is the file containing all the LoL related commands of the 420 Bot
 
 #variables
-RiotKey = "RGAPI-a65424c1-2e67-44b0-97f5-0179453c3f5e"
-riotApiRegion = 'euw1'
 message_accueil_lol = """Salut {0} !
 
 Je suis là pour t'aider à configurer ton compte League of Legends afin de l'associer à ton compte discord du serveur 420 gaming !
