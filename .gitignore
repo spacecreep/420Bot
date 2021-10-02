@@ -2,12 +2,9 @@
 __pycache__/
 *.py[cod]
 *$py.class
-<<<<<<< HEAD
-Code/settings.py
-=======
->>>>>>> 23d2e3506eae60f19ac5d6e827b7c75473078cf6
-settings.py
 Code/graphismes
+Code/__pycache__
+Code/settings
 
 # C extensions
 *.so
