@@ -5,7 +5,7 @@ import random
 
 RiotKey = "RGAPI-a65424c1-2e67-44b0-97f5-0179453c3f5e"
 riotApiRegion = 'euw1'
-TOKEN = 'ODY0OTYyMDYxNDM5NDY3NTcw.YO9EsQ.5yz6aMGlv9-iUzxzjitr0XT6qvA'
+TOKEN = 'ODY0OTYyMDYxNDM5NDY3NTcw.YO9EsQ.0yeuuUzh0b7eXhY3cuab9JzFtkU'
 
 
 #The list of the keys that needs name (with the {} symbol)
