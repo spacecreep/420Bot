@@ -128,6 +128,8 @@ class LoL(commands.Cog):
     @commands.command(name="update")
     async def update(self,ctx):
         if ctx.channel.id == lol_bot_channel:
+            print("bug lol")
+            return await ctx.send("Désolé fréro mais les serveurs de rito sont complètement doomed, réessaye plus tard !")
             await ctx.trigger_typing()
 
             #get the member
@@ -377,6 +379,7 @@ class LoL(commands.Cog):
             if member["rl"]["need_verif"]: return await ctx.send("Ton compte RL n'est pas encore vérifié! Si tu as du mal à l'associer à ton compte membre, n'hésite pas à demander de l'aide à un admin !!!")
 
             await rl_update(self.bot,member,ctx)
+            return
         
 
         return await ctx.send("Cette commande n'est dispo que dans les salons {0.mention} et {1.mention}".format(self.bot.get_channel(rl_bot_channel),self.bot.get_channel(lol_bot_channel)))

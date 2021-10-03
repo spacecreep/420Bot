@@ -27,8 +27,8 @@ def infosJoueurRL(joueur):
     driver = webdriver.Chrome(options=chrome_options)
 
     driver.get("https://rocketleague.tracker.network/rocket-league/profile/epic/"+joueur+"/overview") #connexion au site
-    wait = WebDriverWait(driver, 5)
-
+    wait = WebDriverWait(driver, 10)
+    print("started")
     #nb_vict
     nb_vict = wait.until(EC.visibility_of_element_located((By.CSS_SELECTOR, "#app > div.trn-wrapper > div.trn-container > div > main > div.content.no-card-margin > div.site-container.trn-grid.trn-grid--vertical.trn-grid--small > div.trn-grid__sidebar-left > aside > div.overview.card.bordered.header-bordered.responsive > div > div:nth-child(1) > div > div.numbers > span.value")))
     nb_vict_fr=""
@@ -37,8 +37,7 @@ def infosJoueurRL(joueur):
             nb_vict_fr=nb_vict_fr+char
     
     stats["nb_vict"] = int(nb_vict_fr)
-    print("nb_victs")
-
+    print("nb_vict")
     #nb_goals
     nb_buts = wait.until(EC.visibility_of_element_located((By.CSS_SELECTOR, "#app > div.trn-wrapper > div.trn-container > div > main > div.content.no-card-margin > div.site-container.trn-grid.trn-grid--vertical.trn-grid--small > div.trn-grid__sidebar-left > aside > div.overview.card.bordered.header-bordered.responsive > div > div:nth-child(3) > div > div.numbers > span.value")))
     nb_buts_fr= ""
@@ -46,7 +45,7 @@ def infosJoueurRL(joueur):
         if char!=',':
             nb_buts_fr=nb_buts_fr+char
     stats["nb_buts"] = int(nb_buts_fr)
-
+    print("nb_buts")
     #MVP
     nb_mvp = wait.until(EC.visibility_of_element_located((By.CSS_SELECTOR, "#app > div.trn-wrapper > div.trn-container > div > main > div.content.no-card-margin > div.site-container.trn-grid.trn-grid--vertical.trn-grid--small > div.trn-grid__sidebar-left > aside > div.overview.card.bordered.header-bordered.responsive > div > div:nth-child(7) > div > div.numbers > span.value")))
     nb_mvp_fr= ""
@@ -54,7 +53,7 @@ def infosJoueurRL(joueur):
         if char!=',':
             nb_mvp_fr=nb_mvp_fr+char
     stats["nb_mvp"] = int(nb_mvp_fr)
-
+    print("nb_mvp")
     #Saves
     nb_saves = wait.until(EC.visibility_of_element_located((By.CSS_SELECTOR, "#app > div.trn-wrapper > div.trn-container > div > main > div.content.no-card-margin > div.site-container.trn-grid.trn-grid--vertical.trn-grid--small > div.trn-grid__sidebar-left > aside > div.overview.card.bordered.header-bordered.responsive > div > div:nth-child(6) > div > div.numbers > span.value")))
     nb_saves_fr= ""
@@ -62,20 +61,27 @@ def infosJoueurRL(joueur):
         if char!=',':
             nb_saves_fr=nb_saves_fr+char
     stats["nb_saves"] = int(nb_saves_fr)
-
+    print("nb_saves")
     return stats
 
 async def rl_update(bot,member,ctx):
     print("Le joueur a fait la commande")
     progress = infosJoueurRL(member["rl"]["stats"]["pseudo"])
     progress["pseudo"] = member["rl"]["stats"]["pseudo"]
-
+    
     old_stats = member["rl"]["stats"]
 
-    nb_win = progress["nb_wins"] - old_stats["nb_wins"]
+    if "nb_vict" not in old_stats.keys():
+        print("Ok fréro, à partir de maintenant je vais tenir comptes de tes parties de Rocket League !")
+        member["rl"]["stats"] = progress
+        set_json("Discord Bot/members/" + str(is_member(member["id"])),member)
+        return
+
+    nb_win = progress["nb_vict"] - old_stats["nb_vict"]
     nb_buts = progress["nb_buts"] - old_stats["nb_buts"]
 
     if nb_win == nb_buts == 0:
+        print("ok")
         return await ctx.send("Tu n'as pas marqué de buts ni gagné de parties depuis la dernière fois !")
     
     gain = nb_win * 5 + nb_buts
@@ -83,7 +89,7 @@ async def rl_update(bot,member,ctx):
 
     member["rl"]["stats"] = progress
     member["coins"] += gain
-    set_json("Discord Bot/members/" + str(is_member(member["id"])))
+    set_json("Discord Bot/members/" + str(is_member(member["id"])),member)
 
 
 #commands
