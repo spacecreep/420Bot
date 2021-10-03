@@ -27,6 +27,5 @@ def check_new_users():
             user = get_json("420gaming/users/" + key)
             send_mail(user["email"],user["prénom"],user["verif_number"])
             user["email_sent"] = True
-            user["created_at"] = datetime.timestamp(get_time())
             set_json("420gaming/users/"+key,user)
 
