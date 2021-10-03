@@ -97,7 +97,7 @@ async def get_classement_arcade(bot):
       max_L.append(member)
   mess = ""
   for _ in max_L:
-    mess += bot.get_user(_["id"]).name + ": " + str(_["slot_machine"]["gain_total"]/_["slot_machine"]["nb_tirages"]) + "\n"
+    mess += bot.get_user(_["id"]).name + ": " + str(int(10 *_["slot_machine"]["gain_total"]/_["slot_machine"]["nb_tirages"])/10) + "\n"
   embed.add_field(name="Meilleur rapport gain/tentatives    ",value=mess)
 
   #Rapport gain/tirages
@@ -115,7 +115,7 @@ async def get_classement_arcade(bot):
       max_L.append(member)
   mess = ""
   for _ in max_L:
-    mess += bot.get_user(_["id"]).name + ": " + str(_["slot_machine"]["gain_total"]/_["slot_machine"]["nb_tirages"]) + "\n"
+    mess += bot.get_user(_["id"]).name + ": " + str(int(10*_["slot_machine"]["gain_total"]/_["slot_machine"]["nb_tirages"])/10) + "\n"
   embed.add_field(name="Pire rapport gain/tentatives    ",value=mess)
 
   await bot.get_channel(arcade_classement_channel).send(embed = embed)
